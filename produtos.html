@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall-E</title>
+    <!-- Inclui a folha de estilo do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Inclui a folha de estilo personalizada -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Inclui o script do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Barra de navegação -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+            <img src="https://www.nicepng.com/png/full/334-3345756_free-high-quality-plant-icon-eve-wall-e.png" width="30" height="30" class="d-inline-block align-top" alt="Logo">
+            Wall-e
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="./produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Sugestoes.html">Sugestões</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./produtos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categorias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href=".#areias">Areia Higiênica</a></li>
+                        <li><a class="dropdown-item" href=".#brinquedos">Brinquedos e Arranhadores</a></li>
+                        <li><a class="dropdown-item" href=".#camas">Camas</a></li>
+                        <li><a class="dropdown-item" href=".#higiene">Higiene</a></li>
+                        <li><a class="dropdown-item" href=".#petiscos">Petiscos</a></li>
+                        <li><a class="dropdown-item" href=".#racao">Ração</a></li>
+                        <li><a class="dropdown-item" href=".#tapetes-higienicos">Tapetes Higiênicos</a></li>
+                          <li><a class="dropdown-item" href=".#roupas">Vestuario</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <a class="btn btn-outline-primary me-2" href="#" role="button">Entrar</a>
+            <a class="btn btn-outline-success d-flex align-items-center" href="#" role="button">
+                <img src="https://cdn-icons-png.flaticon.com/512/126/126510.png" width="20" height="20" class="me-1" alt="Carrinho">
+                Carrinho
+            </a>
+        </div>
+    </div>
+</nav>
+<body>
+
+<!--TAPETES HIGIENICOS-->
+    <div class="container">
+        <div class="category" id="tapetes-higienicos">
+        <h2 class="section-title">TAPETES HIGIÊNICOS</h2>
+        <div class="card-group">
+            <!-- Cartões de produtos -->
+            <div class="card" >
+                <img src="./FOTOS/pugcaca.jpeg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">2 Rolos de Sacolas Cata Caca</h5>
+                    <p class="card-price">Preço: R$ 19,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Os saquinhos PIPICÃO são resistentes, não vazam e ainda são biodegradáveis! São 100% Verde, fabricados à base de amido de milho junto com polietileno conforme norma ASTM D6400!</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Outros cartões de produtos -->
+            <div class="card">
+                <img src="./FOTOS/tapetehigienico.webp" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Tapete Higiênico Biodegradável Ecoa </h5>
+                    <p class="card-price">Preço: R$ 42,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Além de sua origem renovável e biodegradável, oferecendo menos impacto ao planeta, o tapete Ecoa também possui ótimo desempenho, com rápida absorção, combate ao mau cheiro e zero vazamento. </p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.tcdn.com.br/img/img_prod/1171102/tapete_ecologico_kaminha_jeans_71_1_7d84cd3cd056f027f2cac4e10b2e2dab.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Tapete Ecológico Kaminha Jeans </h5>
+                    <p class="card-price">Preço: R$75,91</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>O Tapete da Kaminha ainda é fabricado em tecido feito a partir de garrafas Pet, durável e super absorvente.  </p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./FOTOS/jornalBio.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Jornal Pet Pacote Com 100 Folhas</h5>
+                    <p class="card-price">Preço: R$49,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Jornal multiuso, 100% biodegradável e folhas grandes de ótima qualidade. IDEAL PARA: Petshops, hospitais e clínicas veterinárias, criadores e hotéis para animais domésticos. Indicado também para gaiola de pássaros e roedores, absorve umidade e líquidos. </p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://dcdn.mitiendanube.com/stores/001/803/127/products/po-higienico-murano-pets-ninho-do-pet-11-a83f551fcbe9a2e08c16465211266079-640-0.webp" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Pó Higiênico Ecológico para Pets</h5>
+                    <p class="card-price">Preço: R$29,90</p>
+    
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Seu grande poder de absorção, associado a praticidade, economia e comodidade, torna o Eco Pó Higiênico Murano Pets o produto de melhor custo benefício para limpeza dos dejetos dos cães e de outros pets. </p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+<!--CAMAS-->
+    <div class="container">
+        <div class="category" id="camas">
+        <h2 class="section-title">CAMAS</h2>
+        <div class="card-group">
+            <!-- Cartões de produtos -->
+            <div class="card">
+                <img src="https://petmagia.com.br/cdn/shop/products/S0b9cf57658114793bbeda5e3359f1bdai_400x.jpg?v=1680105540" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Cama Ecológica de Rattan - Pet Couch</h5>
+                    <p class="card-price">Preço: R$ 329,49</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>A cama Pet Couch é um aconchegante refúgio para seus animais de estimação. Feita de rattan ecológico, oferece uma sensação natural e aconchegante para cães e gatos!</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <BR>
+            <!-- Outros cartões de produtos -->
+            <div class="card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR36o0hVPM21t2oGDpCOSy6rWNMzMexdWkqqGJa4i-wMOJr-Ch92Ewxzu-dJn--JcTlOlzG48I&usqp=CAE" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Cama de Cachorro com Zíper Eco Basic</h5>
+                    <p class="card-price">Preço: R$ R$ 97,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Feita com materiais ecológicos de alta qualidade, esta cama é uma escolha consciente para o seu animal de estimação. Seu design espaçoso e aconchegante proporciona o local ideal para seu cão relaxar e descansar. O zíper permite a remoção fácil da capa para limpeza, garantindo praticidade e higiene. </p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.petjr.com.br/upload/produto/imagem/cama-para-cachorro-losango-sustent-vel-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Cama Sustentável para Cachorros</h5>
+                    <p class="card-price">Preço: 459,00</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Confeccionada com tecido originado de descartes têxteis e tintas atóxicas à base de água, essa caminha para cachorro possui enchimento antialérgico para garantir noites de sono aconchegantes. Com zíper para facilitar a higienização, essa cama possui estampas exclusivas e modelagem maior do que as convencionais para garantir o conforto que o seu AUmigo merece.</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.petjr.com.br/upload/produto/imagem/cama-para-cachorro-oceano-sustent-vel-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Cama para Cachorros - Oceano</h5>
+                    <p class="card-price">Preço: 459,00</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>A cama para cachorro Oceano da Pet Jr é a escolha perfeita para quem quer proporcionar conforto e sustentabilidade ao seu pet. Confeccionada com tecido originado de descartes têxteis e tintas atóxicas à base de água, essa caminha para cachorro possui enchimento antialérgico para garantir noites de sono aconchegantes. </p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_940044-MLU70329758302_072023-O.webp" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Cama Eco Sustentável Lola</h5>
+                    <p class="card-price">Preço: R$72,10</p>
+    
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Apresentamos a Cama Eco Sustentável para Cães Lola N.4 da Plast Pet na cor Gold.</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<BR>
+
+
+    <!--AREIAS HIGIENICAS-->
+    <div class="container">
+        <div class="category" id="areias">
+        <h2 class="section-title">AREIAS HIGIENICAS</h2>
+        <div class="card-group">
+            <!-- Cartões de produtos -->
+            <div class="card">
+                <img src="./FOTOS/areiaCAnsei.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Cansei de Ser Gato - Biodegradável Grãos Finos</h5>
+                    <p class="card-price">Preço: R$ 39,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>A Areia Higiênica Cansei de Ser Gato Biodegradável Grãos Finos é indicada para gatos. Sua composição é 100% vegetal, com base de milho e mandioca.</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <BR>
+            <!-- Outros cartões de produtos -->
+            <div class="card">
+                <img src="./FOTOS/areiaGReat.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Great Pets - Fina</h5>
+                    <p class="card-price">Preço: R$ R$ 31,80</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Ideal para gatos de todas as raças forma torrões firmes e flexíveis. Uma areia super absorvente e pode ser descartada no vaso sanitário.</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./FOTOS/areiaHELLO.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Areia Hello Kitty Higiênica</h5>
+                    <p class="card-price">Preço: 45,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>A Areia Hello Kitty é zero odor porque tem capacidade de absorção e retenção de líquidos 3x mais eficaz do que as areias convencionais, o que neutraliza naturalmente os odor da urina dos felinos. É 100% de origem vegetal e biodegradável, sem químicos, perfumes ou conservantes (seu gatinho agradece!)</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./FOTOS/areiaVIva.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Viva Verde – Descomplicada</h5>
+                    <p class="card-price">Preço: 69,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>É ideal para lares com mais de um gatinho. Usamos apenas matérias-primas de origem vegetal e de fontes renováveis (milho e mandioca).</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./FOTOS/areiaViva3.png" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Areia Viva Verde - Grãos</h5>
+                    <p class="card-price">Preço: R$69,90</p>
+    
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>É ideal para lares com mais de um gatinho. Usamos apenas matérias-primas de origem vegetal e de fontes renováveis (milho e mandioca).</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+
+
+  <!-------PETISCOS------->
+  <div id="produtos" >
+    <div class="category" id="petiscos">
+        <h2 class="section-title">PETISCOS E SNACKS</h2>
+        <div class="card-group">
+            <!-- Cartões de produtos -->
+            <div class="card">
+                <img src="https://images.petz.com.br/fotos/1547576404931.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Biscoito Menu Luopet Adultos Veggie 180g</h5>
+                    <p class="card-price">Preço: R$ 14,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Feito com ingredientes vegetais de alta qualidade, este petisco oferece um sabor irresistível que vai deixar seu cãozinho feliz e satisfeito. Além disso, é uma escolha ideal para cães adultos que seguem uma dieta vegetariana. Com textura crocante e nutritiva, o Biscoito Menu Luopet é perfeito para recompensar e mimar seu cão durante o dia.</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <BR>
+            <!-- Outros cartões de produtos -->
+            <div class="card">
+                <img src="https://images.petz.com.br/fotos/1592926799431.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Snack Natural Crisp Carne Steak Angus 100g</h5>
+                    <p class="card-price">Preço: R$ R$ 11,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>O Snack Natural Crisp Carne Steak Angus para Cães 100g é uma opção deliciosa e saudável de petisco para o seu cão. Feito com carne de Angus de alta qualidade, este snack oferece um sabor irresistível que vai deixar seu cãozinho feliz e satisfeito. </p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://amordepitucos.com.br/wp-content/uploads/2023/08/6-600x600.png" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Petisco Natural de Cenoura c/ Alecrim 140g</h5>
+                    <p class="card-price">Preço: 23,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Todos nossos petiscos são 100% naturais, livres de corantes, conservantes, aditivos químicos e sem subprodutos da indústria. Além disso, são preparados com frutas e legumes liofilizados, processo nobre de conservação dos alimentos por resfriamento que consegue preservar 100% dos nutrientes, como proteínas, vitaminas, fibras, entre inúmeras outras características que eles possam ter quando “in natura”.</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://buono.pet/wp-content/uploads/2018/03/Treino-Banana-Gengibre.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Petisco natural Barkeria de Banana com Gengibre – 125g</h5>
+                    <p class="card-price">Preço: 32,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>O pacote contém mais de 150 recompensas saudáveis e naturais, enroladas e cortadas manualmente. Os petiscos para treino Barkeria são livres de corantes, conservantes, aditivos químicos e subprodutos que podem comprometer a saúde do animal</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://vilapetz.com.br/wp-content/uploads/2022/08/15145332242_D.png" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">PETISCO NATURAL PEITO DE FRANGO COM ALECRIM 50G</h5>
+                    <p class="card-price">Preço: R$24,90</p>
+    
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Petisco 100% Natural para cães feito de peito de frango, alecrim e nada mais! 100% natural, livre de conservantes, palatabilizantes, corantes e aditivos químicos! Petiscos deliciosos também podem ser saudavel.</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+  <!-------VESTUARIO------->
+  <div id="produtos" >
+    <div class="category" id="roupas">
+        <h2 class="section-title">VESTUARIO</h2>
+        <div class="card-group">
+            <!-- Cartões de produtos -->
+            <div class="card">
+                <img src="./FOTOS/camisagatoBIo.webp" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">CAMISA PARA PET ECO FRIEND FOLHAGEM</h5>
+                    <p class="card-price">Preço: R$44,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>A camisa Folhagem, é feita com tecido 100% algodão. Sua estampa deixa a lembrança de que temos a maior floresta com maior biodiversidade do Planeta. Essa linda camisa, faz parte da linha Eco Friend.</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <BR>
+            <!-- Outros cartões de produtos -->
+            <div class="card">
+                <img src="./FOTOS/camisetaPet.webp" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">CAMISA PET BE FREE BORBOLETAS</h5>
+                    <p class="card-price">Preço: R$ R$ 39,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Invista na marca que além de ser nacional, investe, preza pelo meio ambiente e contribui com a vida de algumas centenas de 4 patas. Vamos de lixo zero, o Planeta merece. Vamos valorizar o que é nosso...</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./FOTOS/moletomPet.webp" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">MOLETOM PARA CACHORROS CAMUFLADA</h5>
+                    <p class="card-price">Preço: 23,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Lindo Moletom com capuz e estampa de camuflagem para o seu cãozinho ou gatinho ficar bem quentinho! Feito com muito amor e cuidado, pensando no bem estar do seu pet. .</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.tcdn.com.br/img/img_prod/783690/camisa_para_pet_eco_friend_safari_da_petecco_33_1_039c6772d2d8ffae8560bdcef0831ebe.jpeg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">CAMISA PARA PET ECO FRIEND SAFARI DA PETECCO</h5>
+                    <p class="card-price">Preço: R$54,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Essa camisa é confeccionada com linha e tecido 100% algodão e faz parte da linha Eco Friend.
+
+                            Seu fechamento é com botões tic tac, para além de facilitar o vestir e despir, o bichinho não se incomodar com o barulho do velcro.
+                            
+                            Seu filho merece roupas confeccionadas com amor, estilo e qualidade.</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.tcdn.com.br/img/img_prod/783690/camisa_pet_love_nature_verde_folha_manchado_da_petecco_57_1_4c05aa8d5bb5f953645ce89e45657615.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">CAMISA PET LOVE NATURE VERDE FOLHA MANCHADO</h5>
+                    <p class="card-price">Preço: R$24,90</p>
+    
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Pensando  nos passeios familiares, a  PetEcco confeccionou, essa estilosa camisa, em tecido 100% algodão. Camisa Verde Folha, da linha Love Nature. Com bolso Caqui e escrita na cor preta. Vamos espalhar ao mundo o amor e o respeito que temos pela natureza, de uma forma estilosa e ecológica. Vamos juntos!</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <BR>
+
+  <!-------BRINQUEDOS------->
+  <div id="produtos" >
+    <div class="category" id="brinquedos">
+        <h2 class="section-title">BRINQUEDOS E ARRANHADORES</h2>
+        <div class="card-group">
+            <!-- Cartões de produtos -->
+            <div class="card">
+                <img src="./FOTOS/cansei1.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Arranhador Castelo de Papelão</h5>
+                    <p class="card-price">Preço: R$129,99</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Essa é mais uma forma de enriquecer o ambiente; Proporciona mais atividades e brincadeiras para o seu gato; O papelão é um isolante térmico e ajuda a preservar o calor do corpo;</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <BR>
+            <!-- Outros cartões de produtos -->
+            <div class="card">
+                <img src="./FOTOS/cansei3.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">CATNIP</h5>
+                    <p class="card-price">Preço: R$ R$ 39,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Acompanha 2g de catnip para a brincadeira começar;
+                            - Alivia o stress para gatos muito ativos;</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://a-static.mlcdn.com.br/450x450/arranhador-cansei-de-ser-gato-curva-para-gatos/petz/20037081000362/03c51656119e2706712a42aa9a413e5d.jpeg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">Arranhador Curva para Gatos</h5>
+                    <p class="card-price">Preço: 299,90</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>- Indicado para gatos; - Produzido sem nenhum tipo de cola; - Com papelão virgem, que é muito mais resistente;</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.petz.com.br/fotos/1665517157324.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">ARRANHADOR TV TUBO DE PAPELÃO</h5>
+                    <p class="card-price">Preço: R$129,99</p>
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>Arranhador para gatos
+                            Apresentação
+                            Disponível em embalagem com 1 unidade.
+                            Medidas
+                            aproximadas
+                             Comprimento: 45cm / Largura: 30cm / Altura: 36cm</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61kWITBcGsL.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                    <h5 class="card-title">ARRANHADOR PARA GATOS</h5>
+                    <p class="card-price">Preço: R$184,49</p>
+    
+                    <div class="text-extra" style="display:none;">
+                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                        <p>quer um brinquedo interessante ao seu gato? este brinquedo de escalada para gatos é uma ótima escolha para ! deixe seu gato relaxar, se exercitar e se divertir em casa ocupar muito espaço. os gatos podem arranhar e afiar suas garras danificar seus próprios móveis. pensado para colocado em qualquer lugar da sua casa, proporcionando mais espaço para o seu gato, vai adorar este brinquedo.</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                        <a href="#" class="btn btn-success">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <BR>
+
+  <!-----------HIGIENE PETS----------------->
+  <div id="produtos" >
+    <div class="category" id="higiene">
+              <h2 class="section-title">PRODUTOS DE HIGIENE</h2>
+              <div class="card-group">
+                  <!-- Cartões de produtos -->
+                  <div class="card">
+                      <img src="https://images.tcdn.com.br/img/img_prod/783690/balm_hidratante_de_patinhas_183_1_f7a2075b93970098b42bf776b5ac28ac.jpg" class="card-img-top" alt="...">
+                      <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                          <h5 class="card-title">BALM HIDRATANTE DE PATINHAS</h5>
+                          <p class="card-price">Preço: R$28,90</p>
+                          <div class="text-extra" style="display:none;">
+                              <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                              <p>Com o Bálsamo da Petecco você cuida das patinhas do seu pet com produtos 100% naturais, puros, veganos e lambíveis! Ele é neutro para não causar irritabilidade. Foi desenvolvido com muito cuidado e amor, para hidratar, proteger, cicatrizar, prevenir rachaduras e até mesmo auxiliar com a redução de lambidas. </p>
+                          </div>
+                          <div class="buttons">
+                              <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                              <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                              <a href="#" class="btn btn-success">COMPRAR</a>
+                          </div>
+                      </div>
+                  </div>
+                  <BR>
+                  <!-- Outros cartões de produtos -->
+                  <div class="card">
+                      <img src="https://images.tcdn.com.br/img/img_prod/783690/shampoo_solido_para_cachorro_caes_e_gatos_109_1_b2460b98556ce2b0976b054ea4b4c42b.jpg" class="card-img-top" alt="...">
+                      <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                          <h5 class="card-title">SHAMPOO SÓLIDO PARA CACHORRO (CÃES E GATOS)</h5>
+                          <p class="card-price">Preço: R$ 21,90</p>
+                          <div class="text-extra" style="display:none;">
+                              <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                              <p>O Shampoo e Sabonete natural, orgânico e vegano de Cedro com Citronela, produzido pela Expresso Mata Atlântica, é feito manualmente e sem ingredientes de origem animal na sua formulação.
+Longe de processo industrial e de componente químicos, são feitos naturalmente. Seu peso é de 125g. A embalagem é feita com papel Kraft e papel manteiga.</p>
+                          </div>
+                          <div class="buttons">
+                              <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                              <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                              <a href="#" class="btn btn-success">COMPRAR</a>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="card">
+                      <img src="https://images.tcdn.com.br/img/img_prod/783690/balm_hidratante_de_focinho_181_1_8823894c8a175489e6abc62ece0da305.jpg" class="card-img-top" alt="...">
+                      <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                          <h5 class="card-title">BALM HIDRATANTE DE FOCINHO</h5>
+                          <p class="card-price">Preço: R$28,90</p>
+                          <div class="text-extra" style="display:none;">
+                              <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                              <p>Com o Bálsamo da Petecco você cuida do focinho do seu pet com produtos 100% naturais, puros, veganos e lambíveis! Ele é neutro para não causar irritabilidade e incomodo olfativo. Foi desenvolvido com muito cuidado e amor, para hidratar, proteger, cicatrizar, prevenir rachaduras e machucados.
+
+                              </p>
+                          </div>
+                          <div class="buttons">
+                              <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                              <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                              <a href="#" class="btn btn-success">COMPRAR</a>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="card">
+                      <img src="https://cdn.awsli.com.br/600x1000/806/806328/produto/66262466/zenpet_openeem_multiuso-zm1m5e22lo.jpg" class="card-img-top" alt="...">
+                      <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                          <h5 class="card-title">Multiuso Repelente para Casa de Cachorro e Gato Natural </h5>
+                          <p class="card-price">Preço: R$79,70</p>
+                          <div class="text-extra" style="display:none;">
+                              <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                              <p>A Zenpet pesquisa e seleciona produtos naturais e de qualidade para cães e gatos, pensando em primeiro lugar na saúde e bem-estar dos nossos filhos de quatro patas.
+
+                                Nós fugimos de produtos sintéticos, parabenos ou químicos. Buscamos por produtos naturais, orgânicos e sustentáveis disponíveis no mercado pet.</p>
+                          </div>
+                          <div class="buttons">
+                              <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                              <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                              <a href="#" class="btn btn-success">COMPRAR</a>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="card">
+                      <img src="https://img.ws.mms.shopee.com.br/ed091f3e012493a45093acb3b9df2f11" class="card-img-top" alt="...">
+                      <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                          <h5 class="card-title">Shampoo para Cachorro Neem</h5>
+                          <p class="card-price">Preço: R$184,49</p>
+          
+                          <div class="text-extra" style="display:none;">
+                              <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                              <p>A Zenpet pesquisa e seleciona produtos naturais e de qualidade para cães e gatos, pensando em primeiro lugar na saúde e bem-estar dos nossos filhos de quatro patas.
+
+                                Nós fugimos de produtos sintéticos, parabenos ou químicos. Buscamos por produtos naturais, orgânicos e sustentáveis disponíveis no mercado pet.</p>
+                          </div>
+                          <div class="buttons">
+                              <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                              <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                              <a href="#" class="btn btn-success">COMPRAR</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <BR>
+
+  <!----------RAÇÃO------------>
+  
+  <div id="produtos" >
+    <div class="category" id="racao">
+                        <h2 class="section-title">RAÇÃO NATURAIS</h2>
+                        <div class="card-group">
+                            <!-- Cartões de produtos -->
+                            <div class="card">
+                                <img src="./FOTOS/tibii2.png" class="card-img-top" alt="...">
+                                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                                    <h5 class="card-title">Tibii All Breeds 15kg</h5>
+                                    <p class="card-price">Preço: R$199,80</p>
+                                    <div class="text-extra" style="display:none;">
+                                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                                        <p>Com o Bálsamo da Petecco você cuida das patinhas do seu pet com produtos 100% naturais, puros, veganos e lambíveis! Ele é neutro para não causar irritabilidade. Foi desenvolvido com muito cuidado e amor, para hidratar, proteger, cicatrizar, prevenir rachaduras e até mesmo auxiliar com a redução de lambidas. </p>
+                                    </div>
+                                    <div class="buttons">
+                                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                                        <a href="#" class="btn btn-success">COMPRAR</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <BR>
+                            <!-- Outros cartões de produtos -->
+                            <div class="card">
+                                <img src="https://cdn.awsli.com.br/2500x2500/1300/1300473/produto/57051564/2kg-porte-peq-thuqkv.jpg" class="card-img-top" alt="...">
+                                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                                    <h5 class="card-title">Ração Premier Nutrição </h5>
+                                    <p class="card-price">Preço: R$ 84,90</p>
+                                    <div class="text-extra" style="display:none;">
+                                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                                        <p>Energia limpa e 100% renovável
+
+                                            Uma das mais recentes medidas da detentora das marcas PremieR, GoldeN e Vitta Natural é a adoção de energia solar no abastecimento de todas as suas fábricas. Com a iniciativa, será evitada a emissão de 16 mil toneladas de CO2 ao ano, o equivalente ao consumo anual de 16 mil residências com quatro pessoas. </p>
+                                    </div>
+                                    <div class="buttons">
+                                        <button class="btn btn-primary btn-read-more">LER MAIS</button>
+                                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                                        <a href="#" class="btn btn-success">COMPRAR</a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="card">
+                                <img src="https://www.lambeijospetshop.com.br/image/cache/data/produtos/racoes/racoes-caes/racao-formula-natural-super-premium-caes-adultos-raca-mini-e-pequena-sabor-frango--2366017-1-926x926.jpg" class="card-img-top" alt="...">
+                                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                                    <h5 class="card-title">Ração Fórmula Natural Cães </h5>
+                                    <p class="card-price">Preço: R$69,90</p>
+                                    <div class="text-extra" style="display:none;">
+                                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                                        <p>A Ração Fórmula Natural Cães Adultos Raças Mini e Pequena, é um alimento completo, indicado para cachorros adultos. Sua receita e suas partículas foram desenvolvidas especialmente para se adaptar às características dos cães de porte miniatura e pequeno, a partir dos 10 meses de idade.
+                                            A Adimax patrocina um centro de treinamento para cães guias que são doados gratuitamente para deficientes visuais.</p>
+                                    </div>
+                                    <div class="buttons">
+                                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                                        <a href="#" class="btn btn-success">COMPRAR</a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="card">
+                                <img src="https://a-static.mlcdn.com.br/450x450/racao-natural-care-para-caes-adultos-mini-pequeno-101kg-ultraalimentos/nmallsmarketplace/0602883953949/aefd8b53b9168bcba6451f1d62c42a95.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                                    <h5 class="card-title">Ração Natural Care Para Cães</h5>
+                                    <p class="card-price">Preço: R$312,90</p>
+                                    <div class="text-extra" style="display:none;">
+                                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                                        <p>Beneficios
+
+                                            Alimento Ultra Premium- Raças pequenas e mini
+                                            
+                                            -Antioxidantes Naturais
+                                            
+                                            -Condroitina + Glicosamina.</p>
+                                    </div>
+                                    <div class="buttons">
+                                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                                        <a href="#" class="btn btn-success">COMPRAR</a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="card">
+                                <img src="https://www.reidosanimais.com.br/media/catalog/product/cache/1/image/380x350/9df78eab33525d08d6e5fb8d27136e95/s/a/salm_o_2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body" style="border-radius: 5px; padding: 10px;">
+                                    <h5 class="card-title">Ração Seca Guabi Natural Salmão e Cevadam</h5>
+                                    <p class="card-price">Preço: R$108,95</p>
+                    
+                                    <div class="text-extra" style="display:none;">
+                                        <!-- Texto extra que será mostrado ao clicar em "LER MAIS" -->
+                                        <p>Seleção de Ingredientes de Origem Animal, mín. 60% (dos quais mín. 16% são Carnes Selecionadas</p>
+                                    </div>
+                                    <div class="buttons">
+                                        <button class="btn btn-primary btn-read-more ">LER MAIS</button>
+                                        <button class="btn btn-secondary btn-read-less" style="display: none;">LER MENOS</button>
+                                        <a href="#" class="btn btn-success">COMPRAR</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+          
+
+                    <br>
+                    <div class="navbar-left">
+                        <a href="#">Voltar ao Início</a>
+                    </div>
+                    <footer class="footer">
+                        
+                        <div class="container-foot">
+                            <div class="pages-link">
+                                <h3>Navegue</h3>
+                                <a class="nav-link" href="./produtos.html">Produtos</a>
+                                <a class="nav-link" href="./Sugestoes.html">Sugestões</a>
+                                <a class="nav-link" href="./Sobre.html">Sobre Nós</a>
+                            </div>
+                            <div class="payment">
+                                <h3>Formas de Pagamento</h3>
+                                <img src="https://cdn4.iconfinder.com/data/icons/payment-method/160/payment_method_card_visa-512.png" alt="Logo Visa">
+                                <img src="https://static-00.iconduck.com/assets.00/mastercard-icon-2048x1225-3kb6axel.png" alt="Logo Mastercard">
+                                <img src="https://cdn4.iconfinder.com/data/icons/simple-peyment-methods/512/paypal-512.png" alt="Logo PayPal">
+                            </div>
+                            
+                            <div class="partners">
+                                <h3>Lojas Parceiras</h3>
+                                <img src="./FOTOS/logoGreats.png" alt="GreatPets">
+                                <img src="./FOTOS/logoPeteco.png" alt="Peteco">
+                                <img src="./FOTOS/logoVIva.png" alt="Viva Verde">
+                            </div>
+                            <div class="social">
+                                <h3>Redes Sociais</h3>
+                                <a href="#"><img src="./FOTOS/iconFacebook.png" alt="Ícone Facebook"></a>
+                                <a href="#"><img src="./FOTOS/iconInstagram.png" alt="Ícone Twitter"></a>
+                                <a href="#"><img src="./FOTOS/iconTwitter.png" alt="Ícone Instagram"></a>
+                            </div>
+                            
+                        </div>
+                    </footer>
+                
+                
+                  <script type="text/javascript" src="./produtos.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-5kCvPrjd1OyaTA0T7aWv+7DOo3qP46/DiD8rBEhgg5cNWfpUqv5HRWYTKxifdkxh" crossorigin="anonymous"></script>
+                   
+                </body>
+                </html>
+                

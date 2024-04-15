@@ -1,0 +1,291 @@
+
+/* Estilos da barra de navegação */
+.navbar {
+    background-color: #bacaab;
+}
+
+.navbar-left {
+    background-color: #006400; /* Cor de fundo da seção "Voltar ao Início" */
+    text-align: center;
+}
+
+.navbar-left a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* Estilos do banner */
+.banner {
+    opacity: 0.7;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Estilos dos títulos */
+.h2, .h3 {
+    text-align: center;
+}
+
+.h3 {
+    font-size: 18px;
+}
+
+.sugestao{
+    text-align: center;
+    color: #006400;
+
+}
+
+/* Estilos dos cards */
+.card {
+    width: 200px;
+    margin: 5px;
+    border: none;
+}
+
+.card-title {
+    text-align: center;
+    text-transform: capitalize; /* A primeira letra de cada palavra será maiúscula */
+    }
+
+.card-text, .text-extra {
+    font-size: 14px;
+    opacity: 0.7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+.card-group {
+    padding: 10px; /* Adiciona espaço interno de 50px em todas as direções */
+    width: auto; /* Permite que o elemento ajuste automaticamente a largura com base no conteúdo */
+    display: flex; /* Aplica um modelo de layout flexível para os elementos filhos */
+    justify-content: center; /* Centraliza os elementos filhos horizontalmente no contêiner flexível */
+    text-align: center;
+}
+
+.card-body {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* Estilos dos botões */
+.btn {
+    text-align: center; /* Centraliza o texto dentro do botão horizontalmente */
+    background-color: #006400; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    margin-top: 5px; /* Adiciona margem superior de 5px */
+    font-size: 16px; /* Tamanho do texto */
+    padding: 7px;
+    
+}
+
+
+
+.btn:hover {
+    background-color: #97bb4e; /* Altera a cor de fundo quando o mouse passa sobre o botão */
+    color: rgb(0, 0, 0); /* Mantém a cor do texto quando o mouse passa sobre o botão */
+}
+
+.btn img {
+    max-height: 100%;
+    max-width: 20px; /* Defina a largura máxima da imagem */
+    margin-right: 5px; /* Espaçamento à direita da imagem */
+}
+
+
+/* Estilos do container principal */
+.container {
+    text-align: center;
+}
+
+/* Estilos do rodapé */
+.footer {
+    background-color: #538d22;
+    padding: 20px 0;
+}
+
+.container-foot {
+    display: flex; /* Aplica um modelo de layout flexível para os elementos filhos */
+    justify-content: space-around; /* Distribui uniformemente os elementos filhos ao longo do contêiner flexível */
+    align-items: flex-start; /* Alinha os elementos filhos no início do eixo transversal */
+}
+
+/* Estilos dos elementos de navegação e rodapé */
+.nav-item {
+    white-space: nowrap; /* Impede que o texto quebre para a próxima linha */
+}
+
+.pages-link a {
+    color: white;
+}
+
+.payment, .social, .pages-link {
+    flex: 1;
+    text-align: center;
+}
+
+.payment img, .social img, .partners img {
+    width: 50px;
+    margin: 10px;
+}
+
+/* Estilos do conteúdo principal */
+.conteudo {
+    padding: auto; /* Define o preenchimento automaticamente */
+    margin: 50px; /* Define a margem de 50px em todas as direções */
+    margin-left: 150px; /* Define a margem esquerda como 150px */
+    margin-right: 150px; /* Define a margem direita como 150px */
+    opacity: 0.7; /* Define a opacidade do elemento como 70% */
+    line-height: 1cm; /* Define a altura da linha como 1cm */
+    text-align: justify; /* Alinha o texto justificado */
+}
+
+.sobre-nos {
+    color: #006400;
+    font-size: 40px;
+}
+
+/* Estilos do container da imagem */
+.image-container img {
+    max-height: 100%; /* Define a altura máxima da imagem como 100% da altura do contêiner */
+    display: block; /* Faz com que a imagem seja exibida como bloco */
+}
+
+/* Estilos do texto container */
+.text-container {
+    background-color: green; /* Cor de fundo desejada */
+    padding: 45px; /* Adiciona espaço interno para o texto */
+    text-align: justify; /* Alinha o texto justificado */
+    color: white; /* Cor do texto */
+}
+
+/* Estilos do container de kit */
+.container-kit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    display: none; /* Esconde a descrição inicialmente */
+  }
+
+/*criar responsividade com o uso de medias querys*/
+@media (max-width: 768px) {
+    .card-group {
+        flex-direction: column; /* Altera a direção da flexão para coluna */
+        align-items: center; /* Centraliza os elementos filhos verticalmente no contêiner flexível */
+    }
+
+    .card {
+        width: 90%; /* Define a largura para 90% da largura da tela */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do card */
+        border-radius: 10px; /* Adiciona bordas arredondadas */
+        overflow: hidden; /* Garante que o conteúdo dentro do card não ultrapasse os limites */
+        transition: transform 0.3s ease-in-out; /* Adiciona um efeito de transição suave */
+    }
+
+    .card:hover {
+        transform: translateY(-5px); /* Eleva ligeiramente o card ao passar o mouse sobre ele */
+    }
+
+    .card img {
+        width: 100%; /* Garante que a imagem ocupe todo o espaço disponível no card */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
+    .card-content {
+        padding: 20px; /* Adiciona preenchimento interno */
+        background-color: #f9f9f9; /* Define uma cor de fundo */
+    }
+
+    .card-title {
+        font-size: 1.2rem; /* Tamanho da fonte do título */
+        margin-bottom: 10px; /* Adiciona um espaçamento na parte inferior do título */
+    }
+
+    .card-text {
+        font-size: 1rem; /* Tamanho da fonte do texto */
+        opacity: 0.8; /* Opacidade do texto */
+        line-height: 1.4; /* Altura da linha do texto */
+    }
+    .container-kit {
+        flex-direction: column-reverse; /* Altera a direção da flexão para coluna */
+        align-items: center; /* Centraliza os elementos verticalmente */
+    }
+
+    .container-foot {
+        flex-direction: column; /* Altera a direção da flexão para coluna */
+        align-items: center; /* Centraliza os elementos verticalmente */
+    }
+
+    .nav-item {
+        margin: 5px 0; /* Adiciona espaçamento apenas na direção vertical */
+    }
+
+    .conteudo {
+        margin: 0 20px; /* Reduz as margens laterais para 20px em dispositivos menores */
+        padding: 10px; /* Reduz o preenchimento para 10px em dispositivos menores */
+    }
+
+    .sobre-nos {
+        font-size: 2rem; /* Reduz o tamanho da fonte para 2 vezes o tamanho padrão em dispositivos menores */
+    }
+
+    
+    .btn {
+        font-size: 14px; /* Reduza o tamanho do texto */
+        padding: 8px 12px; /* Ajuste o padding para um tamanho adequado */
+    }
+
+        .navbar {
+        justify-content: center /* Distribui os itens horizontalmente */
+    }
+
+    .navbar-collapse {
+        position: absolute; /* Coloca o menu no topo */
+        top: 100%; /* Alinha o menu com o topo da navbar */
+        left: 0; /* Alinha o menu com a borda esquerda da navbar */
+        width: 100%; /* Define a largura do menu */
+        background-color: #f8f9fa; /* Cor de fundo do menu */
+        z-index: 1000; /* Define a ordem de empilhamento do menu */
+        display: none; /* Esconde o menu inicialmente */
+    }
+    .navbar-brand {
+        position: absolute; /* Define a posição absoluta */
+        left: 50%; /* Alinha o elemento ao centro */
+        transform: translateX(-50%); /* Move o elemento para a esquerda metade da sua própria largura */
+    }
+    .navbar-collapse.show {
+        display: block; /* Exibe o menu quando o botão de toggler é clicado */
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0; /* Remove a margem dos itens */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .nav-link {
+        color: rgb(0, 0, 0);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+.btn{
+    width: 100%;
+justify-content: center;
+}
+
+    .btn img {
+        max-width: 16px; /* Reduza o tamanho do ícone */
+    }
+}
